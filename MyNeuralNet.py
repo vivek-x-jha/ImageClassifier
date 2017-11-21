@@ -148,4 +148,4 @@ NN = Neural_Network()
 yhat = NN.forward(X)
 error = y - yhat
 
-print(yhat * 100)
+print(error)
